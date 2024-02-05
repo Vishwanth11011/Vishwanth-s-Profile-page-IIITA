@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile page</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,400&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,400&family=Roboto+Slab&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,400&family=Playfair+Display:ital@1&family=Roboto+Slab&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+  </style>
+<style>
+    *{
+        margin: 0;
+        padding:0;
+    }
+    .page{
+        width: 100vw;
+        margin: 0px;
+        height: auto;
+        display: flex;
+        align-content: center;
+    }
+    .h3{
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Roboto Slab', serif;
+        font-size: 30px;
+    }
+    .box{
+        width: 100vw;
+        height: auto;
+        padding: 10px;
+        color: aliceblue;
+        border: 0px solid white;
+        display: flex;
+        flex-direction: row;
+        gap: 30vw;
+    }
+    .welcome{
+        margin: 30px;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .back{
+        background-color: rgb(0, 5, 5); 
+    }
+    .menu{
+        /* border: 3px solid black; */
+        padding: 20px;
+        margin: 8px;
+        width: 50vw;
+        height: auto;
+        display: flex;
+        justify-content: first baseline ;
+        flex-direction: column;
+        gap: 25px;
+        background-color: rgb(245, 239, 55);
+        color: rgb(0, 2, 3);
+    }
+    .info{
+        padding: 10px;
+        display: flex;
+        justify-content: first baseline;
+        flex-direction: column;
+        gap: 25px;
+        color: aliceblue;
+        
+
+    }
+    .page2{
+        width: 100vw;
+        display: flex;
+    }
+    .foot{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    .box2{
+        padding:0px;
+        font-size: large;
+        font-family: 'Nunito', sans-serif;
+    }
+    div ul{
+        margin: 0px;
+        font-size: 15px;
+        background-color: #96a21747;
+        list-style-type:none;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Roboto Slab', serif;
+    }
+    div ol{
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Roboto Slab', serif;  
+        list-style-type:none; 
+    }
+    .img1{
+        justify-content: flex-start;
+        float: inline-end;
+        height: 150px;
+        width: 250px;
+    }
+    .nav1{
+        width: 100vw;
+        margin: 7px;
+        padding: 7px;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: row;
+        gap: 25px;
+        font-size: 20px;
+        background-color: rgb(236, 224, 223);
+        font-family: 'Lato', sans-serif;
+    }
+    .nb{
+        cursor: pointer;
+    }
+    .projects{
+        background-color: rgb(240, 230, 230);
+        color: black;
+        width: 65vw;
+        margin: 25px;
+        padding: 12px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .pro-img{
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .pro-img2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 80px;
+    }
+    .info article{
+        padding: 8px;
+    }
+    a:link{
+        color: aqua;
+    }
+    a:visited{
+        color: rgb(169, 169, 68);
+    }
+</style>
+<body>
+    <div class="page">
+    <div class="back">
+        <div class="box">
+            <div>
+            <img src="https://eu-images.contentstack.com/v3/assets/bltcd74acc1d0a99f3a/blt7dc715fcd9324509/64b1609273ef23488c840278/exeter-ai.png" alt="person" height="100px" width="100px" style="border-radius:57px;" >
+            <h3>Vishwanth Munikuntla</h3>
+            <p>Email:Vishwanthmunikuntla@gmail.com</p>
+            <p>Linkedin:<a href="https://www.linkedin.com/in/vishwanth-munikuntla-4ab8b12a3/" target="_blank">Vishwanth's-Linkedin</a> </p>
+            <p>Git Hub: <a href="https://github.com/Vishwanth11011" target="_blank">Vishwanth's-Github</a> </p>
+        </div>
+        <div class="welcome">
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <span id="element"></span>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+            var typed = new Typed('#element', {
+            strings: ['<i>Hi,I am vishwanth</i>.', ' Welcome to my profile page'],
+            typeSpeed: 50,
+            });
+            </script>
+        </div>
+        </div>
+        <div class="nav1">
+                    <div class="nb">Home</div>
+                    <div class="nb">My projects</div>
+                    <div class="nb">About</div>
+                    <div class="nb">chat</div>
+        </div>
+        <div class="page2">
+            <nav class="menu">
+                <div class="box2">Educational qualifications</div>
+                <ul>
+                    <li># Btech in IT-Bussiness Informatics from IIITA</li>
+                    <li># Schholing from SR educational academy</li>
+                </ul>
+                <div class="box2">Technical skills</div>
+                <ul >
+                    <li># C++</li>
+                    <li># Java</li>
+                    <li># Full stack devekoper</li>
+                    <li># UI/UX designer</li>
+                </ul>
+                <div class="box2">soft skills</div>
+                <ul>
+                    <li>@ Communication skills</li>
+                    <li>@ Team work managment</li>
+                    <li>@ Fast learner</li>
+                </ul>
+                <div class="box2">Languages</div>
+                <ul>
+                    <li># English</li>
+                    <li># German</li>
+                    <li># Hindi</li>
+                    <li># Telugu</li>
+                </ul>
+                <div class="box2">projects</div>        
+                <ol style="color: red; background-color: #96a21747;">
+                    <li>5-Web Development projects</li>
+                    <li>2-Open source projects</li>
+                    <li>1-Machine learning project</li>
+                </ol>
+                <div class="box2">Extra curicular
+                    <ul>
+                        <li>!! Video Editing and photography</li>
+                        <li>*Reading books</li>
+                    </ul>
+                </div>        
+            </nav>
+            <div class="info">
+            <article >
+                <p style="font-size: large; font-style: italic;">     I am a freshie from IIIT-Allahabad, I had completed my B.Tech graduation in Information technology-Bussiness Informatics. I want to be a good software developer. I have experience in IT sector. I had completed Internship in adobe company, I also completed 5 web development projects as a full stack developer, 2 Open source projects, 1 Machine learning project. As a Bussiness Informatics student, I also have knowledge about Fintech, Crypto currency and Block chain technology.</p>
+            </article>
+            <article>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6BaK53obUti-mLuIBnuOVNXicv0xaFeXH7Q&usqp=CAU" alt="" class="img1">
+                <p style="font-size: large; font-style: italic;">I am very much interested in Machine learning projects and research works.I have also worked as a freelancer in Web devlopment field.I have been giving UI/UX desings for various web developers.If you are working on any reputated website and incase If you need any sample design you can contact me through my mail or use chat section on this profile page.</p>
+                <p style="font-size: large; font-weight: 400; font-style: italic;">I am also good at competitive programing. I have solved many data structure questions.I also have good coding knowledge in Java and Python.</p>
+            </article>
+            <article>
+                <p style="font-size: large; font-weight: 400; font-style: italic;">I have completed my full-stack development. So, I am industry ready to work as an full-stack development.Artificial intelligence is also my prior topic of interest, Generally I want artificial intelligence to be integerated in all other fields of IT and make user expericence more amazing and easy.</p>
+            </article>
+            <div class="projects">
+                Hey!..If you are interested you can go through my projects.
+                <div class="pro-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxAB9snuekv-nnZGkt2YcDIvJvLkLdm_3DrQ&usqp=CAU" alt="HTML" style=" border-radius: 17px;" width="120px">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn8m-njkuCtIAeknwBN9lXZSHmx7gqQiIhrw&usqp=CAU" alt="OPen" style=" border-radius: 17px;" width="130px">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgcqLIFZ8TC5MFPVshMoTpkCAV0TFRIYQug&usqp=CAU" alt="ML" style=" border-radius: 17px;" width="120px">
+                </div>
+                <div class="pro-img2">
+                    <p><a href="">Web project</a></p>
+                    <p><a href="">Open source</a></p>
+                    <p><a href="">Machine learning</a></p>
+                </div>
+            </div>
+            <article style="margin: 8px;">
+                <p style="font-size: large; font-weight: 400; font-style: italic;">When I was in IIIT-Allahabad I have volunteered in a society which takes care of photography, Video editing and console room handling in our college. I have a good experience in using camera and I also like photography.My video editing skills are also very good.</p>
+            </article>
+        </div>
+    </div>
+ </div>
+    </div>
+<div class="foot">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj7ZptOgivz1kEBx2hKEzHmeHXDi8s9b8CVA&usqp=CAU" alt="copyR" width="15px">
+    <span>Copyright registered 2024.By Vishwanth</span>
+</div>
+</body>
+</body>
+</html>
